@@ -91,7 +91,7 @@ CUDA_VISIBLE_DEVICES=0 python train_gspan_ddp.py --dataset_name qb --batch_size 
 | argument | default | meaning |
 | --- | --- | --- |
 | `--dataset_name` | `wv3_4K` | dataset used to build the `.h5` file names |
-| `--output_nc` | `8` | number of spectral bands (4 for QB/GF2/WV3, 8 for WV2) |
+| `--output_nc` | `8` | number of spectral bands (4 for QB/GF2, 8 for WV3) |
 | `--batch_size` | `24` | batch size |
 | `--num_epochs` | `500` | training epochs |
 | `--lr` | `4e-4` | initial learning rate (warm-up + cosine annealing) |
