@@ -1,0 +1,29 @@
+# IDE / editor
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# custom CUDA extension build artifacts
+utils/gs_cuda_dmax/build/
+utils/gs_cuda_dmax/*.so
+utils/gs_cuda_dmax/*.pyd
+
+# training / evaluation outputs
+logs_*/
+*.pth
+*.xlsx
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# local backup copies of the CUDA renderer
+utils/gs_cuda_dmax/gs copy.cu
+utils/gs_cuda_dmax/gs.backup.cu
