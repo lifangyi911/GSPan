@@ -7,8 +7,12 @@ image; the high-resolution fusion result is obtained by differentiable Gaussian
 splatting/rendering, which supports continuous (arbitrary) scaling and scale-decoupled
 asymmetric inference (SDAI).
 
-> The manuscript is currently under review. The code in this repository is the
-> implementation used to produce all the quantitative and qualitative results in the paper.
+> 🎉 **News (November 2026):** Our paper, **GSPan: A Continuous Gaussian Primitive
+> Representation for Arbitrary-Scale Pansharpening**, has been accepted by
+> **Information Fusion**! [Read the paper on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1566253526008560).
+>
+> The code in this repository is the implementation used to produce all the
+> quantitative and qualitative results in the paper.
 
 ## Dataset
 
@@ -127,14 +131,13 @@ back by `img_range = 2**bit`.
 
 ```bibtex
 @article{gspan,
-  title   = {GSPan: Arbitrary-Scale Pansharpening with Continuous 2D Gaussian Splatting},
-  author  = {Anonymous},
-  journal = {Submitted to Information Fusion},
-  year    = {2026}
+  title   = {{GSPan}: A Continuous Gaussian Primitive Representation for Arbitrary-Scale Pansharpening},
+  author  = {Li, Fangyi and Yang, Xiaoyuan and Li, Yixiao and Sui, Zongyang and Shen, Kangqing and Vivone, Gemine},
+  journal = {Information Fusion},
+  year    = {2026},
+  url     = {https://www.sciencedirect.com/science/article/pii/S1566253526008560}
 }
 ```
-
-The bibliographic information will be updated once the paper is accepted.
 
 ## Acknowledgements
 
@@ -143,3 +146,4 @@ This code is built upon the publicly available
 [DLPan-Toolbox](https://github.com/liangjiandeng/DLPan-Toolbox) benchmarks for data and
 evaluation protocols, and on the 2D Gaussian splatting CUDA renderer design of the
 original 2DGS project. We thank the authors for releasing their code and data.
+
